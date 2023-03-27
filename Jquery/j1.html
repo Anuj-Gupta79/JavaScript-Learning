@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Class</title>
+    <script src="./jquery-3.6.1.min.js"></script>
+    <style>
+        .heading{
+            color:cadetblue;
+            text-shadow: 2px 2px 2px black;
+        }
+        .paras{
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>LOVELY PROFESSIONAL UNIVERSITY</h1>
+    <h2>PUNJAB</h2>
+    <p>Hello</p>
+    <p>Hey! there</p>
+    <p>How are you?</p>
+    <button>Add Class</button>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("h1,h2").toggleClass("heading");
+                $("p").toggleClass("paras");
+            });
+        });
+    </script>
+</body>
+</html>

@@ -21,6 +21,8 @@ const os = require("os")
 // console.log(os.totalmem())
 
 const path  = require("path")
-console.log(path)
+
+
+
 
 
