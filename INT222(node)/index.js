@@ -9,7 +9,7 @@ import {cookies} from './cookies.js';
 var users = [];
 app.get('/', (req, res)=>{
     res.send("Server is running fine");
-})
+})           
 
 app.get('/get', (req, res)=>{
     res.send(users);

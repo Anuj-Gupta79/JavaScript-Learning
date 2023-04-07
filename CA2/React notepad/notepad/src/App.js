@@ -10,14 +10,16 @@ const App = () => {
 
   return (
     <div style={{ display: "flex" }}>
-      <div style={{
-         height: "500px",
-         width: "500px",
-         color: "white",
-         marginTop: "80px",
-         marginLeft: "50px",
-         padding: "10px",
-      }}>
+      <div
+        style={{
+          height: "500px",
+          width: "500px",
+          color: "white",
+          marginTop: "50px",
+          marginLeft: "50px",
+          padding: "10px",
+        }}
+      >
         <input
           type="text"
           id="message"
@@ -35,7 +37,7 @@ const App = () => {
           height: "600px",
           width: "600px",
           color: "white",
-          marginTop: "80px",
+          marginTop: "50px",
           marginLeft: "200px",
           padding: "10px",
         }}
