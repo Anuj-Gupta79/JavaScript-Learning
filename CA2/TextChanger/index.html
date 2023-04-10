@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Mouse Over</title>
+    <script>
+        function changeText1() {
+            document.getElementById("p1").innerHTML = "This is the new text for paragraph 1.";
+        }
+        function changeText2() {
+            document.getElementById("p2").innerHTML = "This is the new text for paragraph 2.";
+        }
+        function changeText3() {
+            document.getElementById("p3").innerHTML = "This is the new text for paragraph 3.";
+        }
+    </script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <p id="p1" onmouseover="changeText1()">This is the original text for paragraph 1.</p>
+        <p id="p2" onmouseover="changeText2()">This is the original text for paragraph 2.</p>
+        <p id="p3" onmouseover="changeText3()">This is the original text for paragraph 3.</p>
+    </div>
+</body>
+</body>
+
+</html>
